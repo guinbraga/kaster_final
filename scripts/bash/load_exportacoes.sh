@@ -1,0 +1,1 @@
+\copy exportacoes_bruta(co_ano, co_mes, co_ncm, co_unid, co_pais, sg_uf_ncm, co_via, co_urf, qt_estat, kg_liquido, vl_fob) FROM '~/git/uni/data_integration_preparation/kaster_final/data/all_exports.csv' DELIMITER ';' CSV HEADER ENCODING 'LATIN1'
